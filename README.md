@@ -1,6 +1,6 @@
 # Ejentum context server for Zed
 
-A [Zed](https://zed.dev) extension that exposes the [Ejentum Reasoning Harness](https://github.com/ejentum/ejentum-mcp) as an MCP context server. Each call returns an engineered cognitive scaffold (named failure pattern, executable procedure, suppression vectors, falsification test) the assistant ingests before generating, addressing attention decay, sycophantic collapse, hallucination drift, and reasoning decay.
+A [Zed](https://zed.dev) extension that exposes the [Ejentum Reasoning Harness](https://github.com/ejentum/ejentum-mcp) as an MCP context server. Ejentum is a library of 679 cognitive operations engineered in natural language, organized across four harnesses. Each harness call retrieves a task-matched scaffold rather than serving a fixed template: a named failure pattern, an executable procedure, suppression vectors that block the obvious shortcut, and a falsification test for self-verification. The assistant ingests the scaffold and writes from it, addressing attention decay, sycophantic collapse, hallucination drift, and reasoning decay.
 
 Four tools are exposed:
 

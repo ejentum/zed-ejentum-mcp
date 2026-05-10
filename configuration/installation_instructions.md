@@ -1,6 +1,6 @@
 # Ejentum context server
 
-[Ejentum](https://ejentum.com) is a Reasoning Harness for agentic AI. The MCP server exposes four cognitive harness tools (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`). Each call returns a structured cognitive scaffold (failure pattern, executable procedure, suppression vectors that block the obvious shortcut, falsification test for self-verification) the model ingests before generating.
+[Ejentum](https://ejentum.com) is a Reasoning Harness for agentic AI: a library of 679 cognitive operations engineered in natural language, organized across four harnesses (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`). Each harness call retrieves a task-matched scaffold rather than serving a fixed template: a failure pattern, an executable procedure, suppression vectors that block the obvious shortcut, and a falsification test for self-verification. The model ingests the scaffold and writes from it.
 
 ## Setup
 
