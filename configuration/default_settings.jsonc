@@ -1,0 +1,5 @@
+{
+  // Bearer token for the Ejentum Logic API.
+  // Get a free key (100 calls, no card) at https://ejentum.com/pricing
+  "ejentum_api_key": ""
+}
