@@ -31,6 +31,10 @@ Add your Ejentum API key to Zed settings:
 
 Free tier (100 calls, no card) at [ejentum.com/pricing](https://ejentum.com/pricing).
 
+## Hosted alternative
+
+This extension bundles the `ejentum-mcp` npm package and runs it as a stdio subprocess inside Zed. If you'd rather avoid the local subprocess (no npx install, no Node version pinning), the same four harness tools are also hosted at `https://api.ejentum.com/mcp` with Bearer auth via your `EJENTUM_API_KEY`. Most Zed users will prefer this extension (tighter integration, no extra MCP-client configuration needed); the hosted endpoint is documented here for users who want to route through Zed's HTTP-capable MCP support, or who run Zed alongside other clients (n8n, custom HTTP-MCP agents) sharing one key.
+
 ## License
 
 MIT.
