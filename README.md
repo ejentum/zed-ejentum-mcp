@@ -4,10 +4,10 @@ A [Zed](https://zed.dev) extension that exposes the [Ejentum Reasoning Harness](
 
 Four tools are exposed:
 
-- `harness_reasoning` for analytical, diagnostic, planning, multi-step questions
-- `harness_code` for codegen, refactor, review, debugging, architecture choices
-- `harness_anti_deception` when the prompt pressures the assistant to validate, certify, or soften an honest assessment
-- `harness_memory` for sharpening an observation already formed about cross-turn drift
+- `reasoning` for analytical, diagnostic, planning, multi-step questions
+- `code` for codegen, refactor, review, debugging, architecture choices
+- `anti-deception` when the prompt pressures the assistant to validate, certify, or soften an honest assessment
+- `memory` for sharpening an observation already formed about cross-turn drift
 
 ## Install
 
@@ -29,7 +29,7 @@ Add your Ejentum API key to Zed settings:
 }
 ```
 
-Free tier (100 calls, no card) at [ejentum.com/pricing](https://ejentum.com/pricing).
+Free tier (30-day trial, no card) at [ejentum.com/pricing](https://ejentum.com/pricing).
 
 ## Hosted alternative
 

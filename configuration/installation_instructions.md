@@ -1,10 +1,10 @@
 # Ejentum context server
 
-[Ejentum](https://ejentum.com) is a Reasoning Harness for agentic AI: a library of 679 cognitive operations engineered in natural language, organized across four harnesses (`harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`). Each harness call retrieves a task-matched scaffold rather than serving a fixed template: a failure pattern, an executable procedure, suppression vectors that block the obvious shortcut, and a falsification test for self-verification. The model ingests the scaffold and writes from it.
+[Ejentum](https://ejentum.com) is a Reasoning Harness for agentic AI: a library of 679 cognitive operations engineered in natural language, organized across four harnesses (`reasoning`, `code`, `anti-deception`, `memory`). Each harness call retrieves a task-matched scaffold rather than serving a fixed template: a failure pattern, an executable procedure, suppression vectors that block the obvious shortcut, and a falsification test for self-verification. The model ingests the scaffold and writes from it.
 
 ## Setup
 
-1. Get a free Ejentum API key at [ejentum.com/pricing](https://ejentum.com/pricing). Free tier: 100 calls, no card required.
+1. Get a free Ejentum API key at [ejentum.com/pricing](https://ejentum.com/pricing). Free tier: 30-day trial, no card required.
 2. Open Zed settings (`cmd+,` / `ctrl+,`) and add:
 
 ```jsonc
