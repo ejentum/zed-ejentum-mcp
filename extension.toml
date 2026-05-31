@@ -1,7 +1,7 @@
 id = "ejentum-mcp"
 name = "Ejentum"
 description = "Cognitive harness MCP server: reasoning, code, anti-deception, memory scaffolds injected into Zed's context before generation"
-version = "0.1.1"
+version = "0.2.0"
 schema_version = 1
 authors = ["Ejentum <info@ejentum.com>"]
 repository = "https://github.com/ejentum/zed-ejentum-mcp"
